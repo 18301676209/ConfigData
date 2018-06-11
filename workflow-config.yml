@@ -27,4 +27,4 @@ workflow-config:
   getUserAccountDataAuthRestPath: /admin/auth-authorization/dataAuth/getUserAccountDataAuth
   #读取表单及表单js模板的物理路径为：
   readTemplatePath: /root/data/workflowTemplate
-  userName:test
+  userName: test
