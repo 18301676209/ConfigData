@@ -28,3 +28,4 @@ workflow-config:
   #读取表单及表单js模板的物理路径为：
   readTemplatePath: /root/data/workflowTemplate
   userName: wang
+ lucky-word: mmb
