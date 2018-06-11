@@ -1,4 +1,3 @@
-workflow-config:
   rootId: ~
   userComponentsDomain: http://www.bjceis.com:8602
   socalComponentsDomain: http://www.bjceis.com:8609
