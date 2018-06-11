@@ -1,31 +1,16 @@
-  rootId: ~
-  userComponentsDomain: http://www.bjceis.com:8602
-  socalComponentsDomain: http://www.bjceis.com:8609
-  socalMessageComponentsDomain: http://www.bjceis.com:8623
-  attachmentComponentsDomain: http://www.bjceis.com:8607
-  inventoryComponentsDomain: http://www.bjceis.com:8610
-  inspectionComponentsDomain: http://www.bjceis.com:8614
-  knowledgeComponentsDomain: http://www.bjceis.com:8611
-  documentComponentsDomain: http://www.bjceis.com:8615
-  authorizationComponentsDomain: http://www.bjceis.com:8608
-  fetchAttachmentUploadRestPath: /admin/attachment-management/uploadWithName
-  fetchAttachmentDownloadRestPath: /admin/attachment-management/download
-  fetchSocalCommentgetListRestPath: /admin/social-comment/getList
-  fetchSocalCommentAddRestPath: /admin/social-comment/add
-  fetchSocalCommentDeleteRestPath: /admin/social-comment/delete
-  fetchInventoryUpdateRestPath: /admin/itom-inventory/update
-  fetchInspectionUpdateRestPath: /admin/itom-inspection/update
-  fetchKnowledgeUpdateRestPath: /admin/itom-knowledge/update
-  fetchDocumentUpdateRestPath: /admin/itom-document/update
-  fetchUserDepartmentRestPath: /admin/auth-user/dynamicUserDepartmentTree
-  fetchUserRestPath: /admin/auth-user/account/list
-  fetchUserEntityRestPath: /admin/auth-user/account/preUpdate
-  fetchSendMessagePath: /admin/social-message/sendMessageApi
-  getAccountListRestPath: /admin/auth-user/account/list
-  getAddUserAccountDataAdministratorRestPath: /admin/auth-authorization/dataAuth/addDataAdministrator
-  getUserAccountDataAuthRestPath: /admin/auth-authorization/dataAuth/getUserAccountDataAuth
-  #读取表单及表单js模板的物理路径为：
-  readTemplatePath: /root/data/workflowTemplate
-  lucky-word: mmb
-  
- 
+ {
+    "name": "mmb-config-client",
+    "profiles": [
+        "default"
+    ],
+    "label": "master",
+    "version": "4d9240f45fecd34136f81683d44c2e144792af86",
+    "propertySources": [
+        {
+            "name": "https://github.com/mumubin/MMBConfigData/data/mmb-config-client.yml",
+            "source": {
+                "lucky-word": "mmb"
+            }
+        }
+    ]
+}
