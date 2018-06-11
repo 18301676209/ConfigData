@@ -1,7 +1,2 @@
 userComponentsDomain: http://www.bjceis.com:8602
-  socalComponentsDomain: http://www.bjceis.com:8609
-  socalMessageComponentsDomain: http://www.bjceis.com:8623
-  attachmentComponentsDomain: http://www.bjceis.com:8607
-  inventoryComponentsDomain: http://www.bjceis.com:8610
-  inspectionComponentsDomain: http://www.bjceis.com:8614
-  knowledgeComponentsDomain: http://www.bjceis.com:8611
+
