@@ -1,5 +1,5 @@
 {
-    "name": "mmb-config-client",
+    "name": "config-client",
     "profiles": [
         "default"
     ],
@@ -7,7 +7,7 @@
     "version": "4d9240f45fecd34136f81683d44c2e144792af86",
     "propertySources": [
         {
-            "name": "https://github.com/18301676209/ConfigData/data/mmb-config-client.yml",
+            "name": "https://github.com/18301676209/ConfigData/data/config-client.yml",
             "source": {
                 "lucky-word": "mmb"
             }
